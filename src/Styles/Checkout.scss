@@ -1,0 +1,35 @@
+.checkout {
+  display: flex;
+  height: max-content;
+}
+.checkout__left {
+  flex: 0.8;
+}
+.checkout__right {
+  flex: 0.2;
+}
+.checkout__title {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+.items__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem 1rem;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+.items__infoItemCount {
+  flex: 0.7;
+}
+.items__infoQty {
+  flex: 0.25;
+}
+
+@media screen and(max-width: 768px) {
+  .checkout {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
